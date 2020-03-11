@@ -1,0 +1,435 @@
+
+/*css for Home Page*/
+body{
+	background-color: #b0c4de;
+	background-image: url(prog.jpg);
+	background-size: cover;
+	/*background-position: center;*/
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	background-attachment: fixed;
+}
+
+h2{
+	font-size: 40px;
+	color:white;
+}
+
+.more h2{
+	font-size: 26px;
+}
+
+
+ul li{
+	display: inline-block;
+}
+
+.nav-link-wrapper ul{
+	list-style: none;
+	background: #663366;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.nav-link-wrapper a {
+	text-decoration:none;
+	color:#fff;
+	width:100px;
+	display:block;
+	padding:15px;
+	font-size:17px;
+	font-family:Helvetica;
+	transition: 0.7s;
+}
+
+
+.img-size{
+	height: 60px;
+	width: 60px;
+}
+
+ul li a:hover{
+	background-color:white;
+}
+
+
+.border{
+	background-color:#333;
+	color:#fff;
+	border-width:960px;
+	border: solid red 5px;
+	text-align: center;
+	margin:auto;
+	font-size:28px;
+	margin-bottom: 120px;
+	border-radius: 18px;
+}
+
+header{
+	background-image: url(blank.jpg);
+}
+
+.cool{
+	padding:40px;
+}
+
+.Ear-L{
+	padding-right:40px;
+}
+
+.container{
+	background-color:#333;
+	color:#fff;
+	border-width:50%;
+	border: solid red 5px;
+	text-align: center;
+	margin:auto;
+	font-size:28px;
+	margin-bottom: 120px;
+	border-radius: 18px;
+	position: relative;
+	animation: heading;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes heading{
+	0% {top: -300px}
+	100% {top: 0px}
+}
+
+.left-column{
+	float:left;
+	width:40%;
+	background-color:blue;
+	margin:auto;
+	text-align: center;
+	border-radius: 18px;
+	color:#fff;
+}
+
+.right-column{
+	float:right;
+	width:40%;
+	background-color:blue;
+	margin:auto;
+	text-align: center;
+	border-radius: 18px;
+	color:#fff;
+}
+
+.header{
+	background-color: grey;
+}
+
+.nav-link-wrapper{
+	font-size:0.9em;
+}
+
+.more{
+	text-align:center;
+}
+
+
+
+.stuff{
+	border-right:5px orange solid;
+}
+
+.style{
+	font-size:34px;
+	text-align: center;
+	height: 300px;
+	border-radius: 18px;
+}
+
+
+.my-form{
+	padding:20px;
+	text-align: center;
+	background: #fff;
+	border-radius: 18px;
+	box-shadow: 0 0 20px #000000b3;
+
+}
+
+.my-form input{
+    background-color: #c0c0c0;
+}
+
+.my-form textarea{
+	background-color: #c0c0c0;
+}
+
+.my-form .form-group{
+	padding-bottom:15px;
+}
+
+.my-form label{
+	display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding:8px;
+	width:50%;
+}
+
+.my-form input[type="password"]{
+	padding:8px;
+	width:50%;
+}
+
+.my-form input[type="email"]{
+	padding:8px;
+	width:50%;
+}
+
+.my-form input[type="submit"]{
+	background-color:#333;
+	padding:10px 15px;
+	color:#fff;
+	border:none;
+}
+
+
+
+
+.container h1{
+    text-decoration: underline;
+}
+
+
+
+a{
+	text-decoration: none;
+	color:blue;
+	font-size: 28px;
+}
+
+a:hover{
+	color:red;
+}
+
+a:active{
+    color:green;
+}
+
+
+.style{
+	background-color: #20b2aa;
+	padding-top:50px;
+	opacity: 0;
+	position:relative;
+	animation-name: content;
+	animation-duration: 3s;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes content{
+	0%{opacity:0}
+	100%{opacity:1}
+}
+
+.alert{
+	text-align: center;
+	padding: 10px;
+	background: #79c879;
+	color: #fff;
+	margin-bottom: 10px;
+	display: none;
+}
+
+
+/*CSS for Early life*/
+
+.box-1{
+	display: flex;
+	text-align: center;
+	color:#fff;
+	border-width:50%;
+	background-color:#333;
+	border: solid red 5px;
+	margin:auto;
+	margin-bottom: 120px;
+	border-radius: 18px;
+}
+
+.life{
+	margin-left:60%;
+}
+
+.dark{
+	margin-top: 60%;
+	margin-right:60%;
+	font-size:46px;
+	/*
+    background-color:#333;
+    border: solid red 5px;
+    */
+	color:#fff;
+	border-width:50%;
+	margin:auto;
+	margin-bottom: 120px;
+}
+
+.terror{
+	display: flex;
+	background-color:#333;
+	color:#fff;
+	border-width:50%;
+	border: solid red 5px;
+	text-align: center;
+	margin:auto;
+	margin-bottom: 120px;
+	border-radius: 18px;
+}
+
+.track{
+	font-size: 20px;
+}
+
+.slide{
+	text-align: center;
+}
+
+
+.slide p{
+	background-color:#333;
+	color:#fff;
+	border-width:50%;
+	border: solid red 5px;
+	text-align: center;
+	margin:auto;
+	margin-bottom: 120px;
+	border-radius: 18px;
+}
+
+a{
+	text-decoration: underline;
+	font-size:38px;
+}
+
+li a{
+	font-size: 16px;
+}
+
+
+/*CSS for My coding experince*/
+
+.code{
+	font-size: 38px;
+	background-color:#333;
+	color:#fff;
+	border-width:50%;
+	border-radius:10px;
+	/*
+	border: solid red 5px;
+	*/
+	text-align: center;
+	margin:auto;
+	margin-bottom: 120px;
+}
+
+.text{
+	font-size: 24px;
+	background-color:#333;
+	color:#fff;
+	border-width:50%;
+	border: solid red 5px;
+	text-align: center;
+	margin:auto;
+	border-radius:10px;
+}
+
+.link{
+	margin-top: 850px;
+}
+
+
+
+/*CSS for Hobbies*/
+
+.from h1{
+	font-size: 24px;
+	text-align:center;
+	font-family: Arial;
+	color:black;
+	background-color:#333;
+	color:#fff;
+	border-width:50%;
+	border: solid red 5px;
+	margin:auto;
+	margin-bottom: 120px;
+	border-radius: 10px;
+
+}
+
+.from h1{
+	font-size: 80px;
+	color:#ffc0cb;
+	text-decoration: underline;
+}
+
+
+@media screen and (max-width:959px){
+    .border{
+    	width:100%;
+    }
+    img{
+    	width:100%;
+    }
+}
+
+
+.aCode{
+	text-align:center;
+	font-family: Arial;
+	color:black;
+	background-color:#333;
+	color:#fff;
+	border-width:50%;
+	border: solid red 5px;
+	margin:auto;
+	margin-bottom: 120px;
+	border-radius: 10px;
+}
+
+
+
+
+
+/*Goals & Dreams*/
+
+
+.inside{
+	font-size: 24px;
+	background-color:#333;
+	color:#fff;
+	border-width:50%;
+	border: solid red 5px;
+	text-align: center;
+	margin:auto;
+	margin-bottom: 120px;
+}
+
+.inside{
+	border:none;
+	font-family: Helvetica;
+	padding-bottom: 120px;
+}
+
+.inside h1{
+	font-size: 58px;
+}
+
+
+
+
+
+
+
+
+
